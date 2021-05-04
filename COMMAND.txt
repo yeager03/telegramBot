@@ -1,0 +1,13 @@
+npm i json-server - node_modelus
+npm i - package.json
+npx json-server db.json - server
+
+
+
+//for tg 
+
+npm i node-telegram-bot-api nodemon
+
+
+pm2 start index.js
+
