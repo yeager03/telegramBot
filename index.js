@@ -28,16 +28,16 @@ const start = () => {
         } else if (text === '/java') {
             try {
                 const db = {
+                    // 1: [
+                    //     'BQACAgIAAxkBAAICS2CRotNVpmAZuB5VDPeanXbu3-9YAAKDEAACGgABiUiWiVS_w_VStx8E', 'BQACAgIAAxkBAAICTWCRo2pI6TzB1dY4aHx7tSKAxtkrAAKHEAACGgABiUj00q3ScFAtdh8E', 'BQACAgIAAxkBAAICT2CRo-MDDdfoqeSAzHHMgCnfz9EeAAKIEAACGgABiUiYbRSTj_pHWR8E'
+                    // ],
+                    // 2: [
+                    //     'BQACAgIAAxkBAAICUWCRpFcNhlIXVgvMWOJMckwNCdc9AAKMEAACGgABiUg0UzhH2pY36R8E', 'BQACAgIAAxkBAAICU2CRpQdZVTzD4l1GUOLS1ERqOx9jAAKQEAACGgABiUiHFYYPIDaX1B8E', 'BQACAgIAAxkBAAICVWCRpaEBr3rrPkTWGw2D0jp96_TsAAKTEAACGgABiUh4CAFFlQorKh8E'
+                    // ],
+                    // 3: [
+                    //     'BQACAgIAAxkBAAICV2CRpjN6AAFhbOsGzXlyStmYI_2hmQAClxAAAhoAAYlIMp6-GhdHhmAfBA', 'BQACAgIAAxkBAAICWWCRpwl1td5JqvIV7bR22_QzSz1zAAKcEAACGgABiUgqpUJdmZ_0uR8E', 'BQACAgIAAxkBAAICW2CRp6iQWBA7Ap0ZdzVLA5C_oYJGAAKfEAACGgABiUhCfSkvgiJKbh8E'
+                    // ],
                     1: [
-                        'BQACAgIAAxkBAAICS2CRotNVpmAZuB5VDPeanXbu3-9YAAKDEAACGgABiUiWiVS_w_VStx8E', 'BQACAgIAAxkBAAICTWCRo2pI6TzB1dY4aHx7tSKAxtkrAAKHEAACGgABiUj00q3ScFAtdh8E', 'BQACAgIAAxkBAAICT2CRo-MDDdfoqeSAzHHMgCnfz9EeAAKIEAACGgABiUiYbRSTj_pHWR8E'
-                    ],
-                    2: [
-                        'BQACAgIAAxkBAAICUWCRpFcNhlIXVgvMWOJMckwNCdc9AAKMEAACGgABiUg0UzhH2pY36R8E', 'BQACAgIAAxkBAAICU2CRpQdZVTzD4l1GUOLS1ERqOx9jAAKQEAACGgABiUiHFYYPIDaX1B8E', 'BQACAgIAAxkBAAICVWCRpaEBr3rrPkTWGw2D0jp96_TsAAKTEAACGgABiUh4CAFFlQorKh8E'
-                    ],
-                    3: [
-                        'BQACAgIAAxkBAAICV2CRpjN6AAFhbOsGzXlyStmYI_2hmQAClxAAAhoAAYlIMp6-GhdHhmAfBA', 'BQACAgIAAxkBAAICWWCRpwl1td5JqvIV7bR22_QzSz1zAAKcEAACGgABiUgqpUJdmZ_0uR8E', 'BQACAgIAAxkBAAICW2CRp6iQWBA7Ap0ZdzVLA5C_oYJGAAKfEAACGgABiUhCfSkvgiJKbh8E'
-                    ],
-                    4: [
                         'BQACAgIAAxkBAAICXWCRqBiHGBOQb0c5qcFDYCYR4uV3AAKgEAACGgABiUgvxcnXO6AC0h8E'
                     ]
                 };
@@ -55,8 +55,8 @@ const start = () => {
                         }
                     };
 
-                    something();
-                    setInterval(something, 1000 * 60 * 60 * 24);
+                    // something();
+                    setInterval(something, 1000 * 60 * 60 * 3);
                 };
 
                 first();
