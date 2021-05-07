@@ -56,7 +56,7 @@ const start = () => {
                     };
 
                     // something();
-                    setInterval(something, 1000 * 20);
+                    setInterval(something, 1000 * 60 * 60 * 4);
                 };
 
                 first();
